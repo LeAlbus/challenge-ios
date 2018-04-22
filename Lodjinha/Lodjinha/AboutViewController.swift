@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  AboutViewController.swift
 //  Lodjinha
 //
 //  Created by Pedro Lopes on 22/04/18.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class AboutViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {

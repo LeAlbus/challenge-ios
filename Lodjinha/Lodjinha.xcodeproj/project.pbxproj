@@ -11,13 +11,14 @@
 		9A8AAAD0FA13174E0E0FE17D /* Pods_LodjinhaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C80384FEC8E8CE11B2708D /* Pods_LodjinhaUITests.framework */; };
 		9F973724529AE94209657F84 /* Pods_LodjinhaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30494316DBE17EBC36DAF73D /* Pods_LodjinhaTests.framework */; };
 		A0DC1820208CD5F10097EE6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DC181F208CD5F10097EE6F /* AppDelegate.swift */; };
-		A0DC1822208CD5F10097EE6F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DC1821208CD5F10097EE6F /* FirstViewController.swift */; };
-		A0DC1824208CD5F10097EE6F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DC1823208CD5F10097EE6F /* SecondViewController.swift */; };
+		A0DC1822208CD5F10097EE6F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DC1821208CD5F10097EE6F /* HomeViewController.swift */; };
+		A0DC1824208CD5F10097EE6F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DC1823208CD5F10097EE6F /* AboutViewController.swift */; };
 		A0DC1827208CD5F10097EE6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DC1825208CD5F10097EE6F /* Main.storyboard */; };
 		A0DC1829208CD5F40097EE6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0DC1828208CD5F40097EE6F /* Assets.xcassets */; };
 		A0DC182C208CD5F40097EE6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0DC182A208CD5F40097EE6F /* LaunchScreen.storyboard */; };
 		A0DC1837208CD5F40097EE6F /* LodjinhaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DC1836208CD5F40097EE6F /* LodjinhaTests.swift */; };
 		A0DC1842208CD5F50097EE6F /* LodjinhaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DC1841208CD5F50097EE6F /* LodjinhaUITests.swift */; };
+		A0DC1850208CDE460097EE6F /* TabBarItemExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0DC184F208CDE460097EE6F /* TabBarItemExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +47,8 @@
 		92DD8FE3593686828CBD708E /* Pods-Lodjinha.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lodjinha.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lodjinha/Pods-Lodjinha.debug.xcconfig"; sourceTree = "<group>"; };
 		A0DC181C208CD5F10097EE6F /* Lodjinha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lodjinha.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DC181F208CD5F10097EE6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0DC1821208CD5F10097EE6F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		A0DC1823208CD5F10097EE6F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A0DC1821208CD5F10097EE6F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		A0DC1823208CD5F10097EE6F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		A0DC1826208CD5F10097EE6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0DC1828208CD5F40097EE6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0DC182B208CD5F40097EE6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +59,7 @@
 		A0DC183D208CD5F50097EE6F /* LodjinhaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LodjinhaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0DC1841208CD5F50097EE6F /* LodjinhaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LodjinhaUITests.swift; sourceTree = "<group>"; };
 		A0DC1843208CD5F50097EE6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0DC184F208CDE460097EE6F /* TabBarItemExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemExtension.swift; sourceTree = "<group>"; };
 		B3D89031315F8653A5407814 /* Pods-Lodjinha.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lodjinha.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lodjinha/Pods-Lodjinha.release.xcconfig"; sourceTree = "<group>"; };
 		B4C80384FEC8E8CE11B2708D /* Pods_LodjinhaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LodjinhaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4B39875AE25DF496559B01 /* Pods-LodjinhaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LodjinhaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LodjinhaTests/Pods-LodjinhaTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,12 +119,13 @@
 			isa = PBXGroup;
 			children = (
 				A0DC181F208CD5F10097EE6F /* AppDelegate.swift */,
-				A0DC1821208CD5F10097EE6F /* FirstViewController.swift */,
-				A0DC1823208CD5F10097EE6F /* SecondViewController.swift */,
+				A0DC1821208CD5F10097EE6F /* HomeViewController.swift */,
+				A0DC1823208CD5F10097EE6F /* AboutViewController.swift */,
 				A0DC1825208CD5F10097EE6F /* Main.storyboard */,
 				A0DC1828208CD5F40097EE6F /* Assets.xcassets */,
 				A0DC182A208CD5F40097EE6F /* LaunchScreen.storyboard */,
 				A0DC182D208CD5F40097EE6F /* Info.plist */,
+				A0DC184F208CDE460097EE6F /* TabBarItemExtension.swift */,
 			);
 			path = Lodjinha;
 			sourceTree = "<group>";
@@ -460,9 +463,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0DC1824208CD5F10097EE6F /* SecondViewController.swift in Sources */,
+				A0DC1850208CDE460097EE6F /* TabBarItemExtension.swift in Sources */,
+				A0DC1824208CD5F10097EE6F /* AboutViewController.swift in Sources */,
 				A0DC1820208CD5F10097EE6F /* AppDelegate.swift in Sources */,
-				A0DC1822208CD5F10097EE6F /* FirstViewController.swift in Sources */,
+				A0DC1822208CD5F10097EE6F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,7 +643,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8N79BENX2;
 				INFOPLIST_FILE = Lodjinha/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Lopes.Lodjinha";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -655,7 +662,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8N79BENX2;
 				INFOPLIST_FILE = Lodjinha/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Lopes.Lodjinha";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -672,7 +682,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8N79BENX2;
 				INFOPLIST_FILE = LodjinhaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Lopes.LodjinhaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -690,7 +704,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8N79BENX2;
 				INFOPLIST_FILE = LodjinhaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Lopes.LodjinhaTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -707,7 +725,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8N79BENX2;
 				INFOPLIST_FILE = LodjinhaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Lopes.LodjinhaUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -724,7 +746,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y8N79BENX2;
 				INFOPLIST_FILE = LodjinhaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Pedro-Lopes.LodjinhaUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

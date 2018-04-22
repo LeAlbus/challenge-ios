@@ -13,7 +13,9 @@ class AboutViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-
+        let logo = UIImage(named: "logoNavbar")
+        let imageView = UIImageView(image:logo)
+        self.navigationItem.titleView = imageView
     }
 
     override func didReceiveMemoryWarning() {
